@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#d7fd35</color>
+    <color name="purple_500">#b2de02</color>
+    <color name="purple_700">#85c485</color>
+    <color name="teal_200">#b2de02</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#212529</color>
+    <color name="white">#f3f5f6</color>
+
+    <color name="theme_Blue">#407BFF</color>
+    <color name="ThemeGray">#cecece</color>
+    <color name="theme_Dark_Gray">#212529</color>
+    <color name="anti_flash_Gray">#F2F2F2</color>
+    <color name="pastel_orange_light">#FBE8DF</color>
+    <color name="mtrl_textinput_default_box_stroke_color" >#673AB7</color>
+
+    <color name="kırık_beyaz" >#f3f5f6</color>
+    <color name="neon_yellow">#d7fd35</color>
+    <color name="greenish_neon">#b2de02</color>
+    <color name="light_gray">#cecece</color>
+    <color name="dark_gray">#323232</color>
+
+    <color name="green">#d7fd35</color>
+    <color name="brightgreen">#85c485</color>
+
+    <color name="color_brown_grey">#999999</color>
+    <color name="color_warm_grey">#979797</color>
+    <color name="color_black_two">#030303</color>
+</resources>

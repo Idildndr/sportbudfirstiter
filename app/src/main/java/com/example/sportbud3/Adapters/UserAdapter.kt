@@ -1,0 +1,33 @@
+package com.example.sportbud3.Adapters
+
+import android.content.Context
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+import com.example.sportbud3.R
+import kotlin.collections.ArrayList
+
+
+class UserAdapter(private val userNames: ArrayList<String>) :
+    RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
+
+    class UserViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val userNameTextView: TextView = itemView.findViewById(R.id.textView2)
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.user_item, parent, false)
+        return UserViewHolder(view)
+    }
+
+    override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
+        val userName = userNames[position]
+        holder.userNameTextView.text = userName
+    }
+
+    override fun getItemCount(): Int {
+        return userNames.size
+    }
+}

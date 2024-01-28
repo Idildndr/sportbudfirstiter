@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/welcomeMapFragment2"
+        android:icon="@drawable/map"
+        android:title="Map" />
+
+    <item
+        android:id="@+id/roomListActivity"
+        android:icon="@drawable/ic_baseline_sports_gymnastics_24"
+        android:title="Activities" />
+
+
+
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Me" />
+
+
+</menu>

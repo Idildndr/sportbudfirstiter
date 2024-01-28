@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeMapFragment2">
+
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.sportbud3.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/profile_2" />
+    <activity
+        android:id="@+id/roomListActivity"
+        android:name="com.example.sportbud3.Activities.RoomListActivity"
+        android:label="activity_room_list"
+        tools:layout="@layout/activity_room_list" />
+
+    <activity
+        android:id="@+id/myActivity"
+        android:name="com.example.sportbud3.Activities.MyActivity"
+        android:label="fragment_my"
+        tools:layout="@layout/fragment_my" />
+    <fragment
+        android:id="@+id/welcomeMapFragment2"
+        android:name="com.example.sportbud3.WelcomeMapFragment2"
+        android:label="fragment_welcome_map2"
+        tools:layout="@layout/fragment_welcome_map2" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.sportbud3.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+
+
+</navigation>

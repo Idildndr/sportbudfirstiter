@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SportBud3</string>
+    <string name="api_key">AIzaSyAV_nyL7n_EhJqYNEBrIuNgWDo6qPB8mqc</string>
+
+    <string-array name="Categories">
+        <item>Yoga</item>
+        <item>Cardio</item>
+        <item>Running</item>
+        <item>Tennis</item>
+    </string-array>
+
+
+    <string-array name="Participants">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+
+    <string-array name="Scores">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <dimen name="spacing">10dp</dimen>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="dont_you_have_an_account_sign_in">Dont you have an account?<u> Sign in </u></string>
+</resources>
